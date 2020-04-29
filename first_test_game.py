@@ -150,7 +150,7 @@ def _update_square(sq):
     
     if sq == 'LeftTop' and _lefttop_owner == None \
        and _nw_n and _nw_w and _n_c and _w_c:
-        _lafttop_owner = _current_player
+        _lefttop_owner = _current_player
         return True
     elif sq == 'RightTop' and _righttop_owner == None \
          and _n_ne and _ne_e and _c_e and _n_c:
