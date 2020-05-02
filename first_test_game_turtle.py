@@ -1,4 +1,4 @@
-import turtle
+from turtle import *
 from tkinter import messagebox
 
 # Gain access to the game engine function 
@@ -261,6 +261,6 @@ def initialize():
         draw_dot(dot)
     update() # Force the window to show drawing
     
-if_-name__ == 'main':
-    initialize() # Sets up the game 
-    mainloop() # Start the running
+if __name__ == "__main__":
+    initialize() # Set up the game
+    mainloop() # Start game running
